@@ -1,0 +1,339 @@
+/*contenedor1*/
+/*body {overflow-y:hidden!important;} */
+::-webkit-scrollbar {
+      width:0px;
+}
+::-webkit-scrollbar-track {
+      background-color:white;
+}
+::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.2);
+}
+.div-contenedor1-eco-app{
+  width: 100%;
+  height:129vh;
+  background-image:url('../imagenes/fondoPrueba.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top:10%;
+}
+.div-img-logo-eco-app,.div-button-conocer{
+  margin-top:1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-texto-eco-app{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.div-frase{
+  color: white;
+  font-family: 'Baloo', cursive;
+  text-align: center;
+}
+.seguidor{
+  position: fixed;
+  z-index: 1000;
+  left: 97%;
+  width: 20px;
+  height: 364px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.lines1{
+  width: 8%;
+  background: #d2d2d2;
+  height: 100px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.bolita1{
+  width: 17px;
+  height: 17px;
+  background: #d2d2d2;
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+}
+.bolita2{
+  width: 10px;
+  height: 10px;
+  background: #d2d2d2;
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top:25px;
+}
+.lines2{
+  width: 8%;
+  background:#d2d2d2;
+  height: 100px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+}
+.a-button-conocer{
+  background: none;
+  color:white;
+  border: 1px solid white;
+  height: 7vh;
+  font-size: 3vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:1%;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 20px;
+}
+.a-button-conocer:hover{
+  background:#63af00;
+  text-decoration: none;
+  color: white;
+  border: none;
+}
+
+/*contenedor2*/
+
+.div-texto-servicios{
+  color:#717171;
+  font-family: 'Baloo', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:1%;
+  width:30%;
+}
+.h1-servicios{
+  font-size: 8vh;
+  border-bottom: 1px solid #717171;
+}
+.contenedor2{
+  height:110vh;
+  background-image:url('../imagenes/fondo2.png');
+}
+.responsive,.search,.htm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+  font-size:3vh;
+}
+.bri01,.ht,.Re{
+  color: #717171;
+  font-family: 'Baloo';
+}
+
+/*contenedor3*/
+.div-columna1{
+  background:#63af00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:80vh;
+}
+.div-titulo-eventos{
+  color:white;
+  font-family: 'Baloo', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:3%;
+  width:30%;
+  margin-top:10%;
+}
+.h1-eventos{
+  font-size: 8vh;
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+.div-texto-imagen-eventos{
+  font-size:2.5vh;
+  font-family: 'roboto';
+  margin-bottom: 7%;
+  color: white;
+}
+.div-columna2,.div-img-eventos-eco-app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #63af00;
+  height: 80vh;
+  z-index: 800;
+}
+.img-celular-eco{
+  margin-top: 20%;
+}
+
+
+/*contenedor4*/
+
+.div-contenedor4{
+  background-image:url('../imagenes/fondo3.png');
+  height:70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top:15%;
+  z-index: 500;
+}
+.div-texto-frase{
+  text-align: center;
+  font-size: 3vh;
+  font-family: 'roboto';
+}
+.div-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:4%;
+  margin-bottom: 2%;
+}
+.div-bolita-galeria{
+  width: 17px;
+  height: 17px;
+  background:#717171;
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+}
+.div-bolita-galeria2{
+  margin-left: 50%;
+  width: 20px;
+  height: 20px;
+  background:#717171;
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+}
+.div-bolita-galeria3{
+  margin-left:100%;
+  width: 17px;
+  height: 17px;
+  background:#717171;
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+}
+.div-galeria{
+  display: flex;
+}
+/*contenedor5*/
+
+.div-contenedor5{
+  background-image:url('../imagenes/fondo4.png');
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 13%;
+}
+.div-input,.div-button-send{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input{
+  background: none;
+  border: 1px solid white;
+  color: white;
+  height: 7vh;
+  font-family: 'roboto';
+  font-size:3vh;
+  margin-bottom:25px;
+}
+.button-enviar{
+  background:#ff4b2b;
+  border: none;
+  color: white;
+  height: 7vh;
+  border-radius: 20px;
+  font-size: 3vh;
+  font-family: 'roboto';
+  margin-top:3%;
+}
+.button-enviar:hover{
+  background:white;
+  border: none;
+  color: #f95639;
+}
+.div-titulo-registrate{
+  color:white;
+  font-family: 'Baloo', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:3%;
+  width:30%;
+  margin-top:-3%;
+}
+.h1-registrate{
+  font-size: 8vh;
+  border-bottom: 1px solid white;
+}
+::-webkit-input-placeholder { color: white; }
+
+@media (max-width: 768px){
+  .seguidor,.div-columna2{
+    display: none;
+  }
+  .div-button-conocer{
+    margin-top:1%;
+  }
+  .contenedor2{
+    height:208vh;
+    background-image: none;
+    background-color: #ebeef3;
+    }
+  .div-columna1{
+    height: 200vh;
+  }
+  .div-img-logo-eco-app,.div-button-conocer{
+    margin-top:5%;
+  }
+  .div-contenedor1-eco-app{
+    padding-top: 12%;
+  }
+}
+@media (width:1024px){
+  .seguidor,.div-columna2{
+    display: none;
+  }
+  .bri01,.ht,.Re{
+    font-size:3vh;
+  }
+  .contenedor2{
+    height:200vh;
+    background-image: none;
+    background-color: #ebeef3;
+  }
+  .div-img-logo-eco-app,.div-button-conocer{
+    margin-top:5%;
+  }
+  .div-contenedor1-eco-app{
+    padding-top:25%;
+  }
+
+}
